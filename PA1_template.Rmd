@@ -94,6 +94,7 @@ mean(total2$StepsPerDay, na.rm=TRUE)
 
 median(total2$StepsPerDay, na.rm=TRUE)
 ```
+The above values are almost identical to the previous case with NAs. The only impact of inputing missing data on the estimates of the total daily number of steps is that the median is increased a small amount.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 To ensure that the name of the days are in English:
